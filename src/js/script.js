@@ -25,11 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 1,
             title: "Magic Coding",
             media: [
-                { type: "image", src: "src/img/project1_img1.png" },
-                { type: "image", src: "src/img/project1_img2.png" },
-                { type: "video", src: "src/videos/project1_video.mp4" },
-                { type: "video", src: "src/videos/project1_video.mp4" },
-                { type: "video", src: "src/videos/project1_video.mp4" },
+                { type: "video", src: "src/videos/magicCoding.mp4" },
 
             ],
             buttons: [
@@ -53,8 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 3,
             title: "Preservateen",
             media: [
-                { type: "image", src: "src/img/project2_img1.png" },
-                { type: "video", src: "src/videos/project2_video.mp4" },
+                { type: "video", src: "src/videos/preservateen.mp4" },
             ],
             buttons: [
                 { text: "Acessar Site", link: "https://preservateen.vercel.app" },
@@ -65,8 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 4,
             title: "InAlert",
             media: [
-                { type: "image", src: "src/img/project2_img1.png" },
-                { type: "video", src: "src/videos/project2_video.mp4" },
+                { type: "video", src: "src/videos/inalert.mp4" },
             ],
             buttons: [
                 { text: "Acessar Site", link: "https://site1.com" },
@@ -77,26 +71,24 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 5,
             title: "RTS Engenharia Elétrica",
             media: [
-                { type: "image", src: "src/img/project2_img1.png" },
-                { type: "video", src: "src/videos/project2_video.mp4" },
+                { type: "video", src: "src/videos/rts.mp4" },
             ],
             buttons: [
                 { text: "Acessar Site", link: "https://rtsengenharia.vercel.app" },
                 { text: "GitHub", link: "https://github.com/luthrsm/rtsEngenharia" },
             ],
         },
-        {
-            id: 6,
-            title: "Triágil",
-            media: [
-                { type: "image", src: "src/img/project2_img1.png" },
-                { type: "video", src: "src/videos/project2_video.mp4" },
-            ],
-            buttons: [
-                { text: "Acessar Site", link: "https://site1.com" },
-                { text: "Repositório GitHub", link: "https://github.com/luthrsm/Triagil" },
-            ],
-        },
+        // {
+        //     id: 6,
+        //     title: "Triágil",
+        //     media: [
+        //         { type: "video", src: "src/videos/triagil.mp4" },
+        //     ],
+        //     buttons: [
+        //         { text: "Acessar Site", link: "https://site1.com" },
+        //         { text: "Repositório GitHub", link: "https://github.com/luthrsm/Triagil" },
+        //     ],
+        // },
     ];
 
     const modal = document.getElementById("projectModal");
