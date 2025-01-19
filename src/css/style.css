@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --vermelho: #912f40;
     --preto: #000;
     --azul: #6f9ceb;
@@ -18,7 +18,7 @@
     --fonteTexto: 'Poppins', sans-serif
 }
 
-header{
+header {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -32,17 +32,17 @@ header{
     position: fixed;
     font-family: var(--fonteTitulo);
     text-transform: uppercase;
-    
+
 }
 
-header .logo{
+header .logo {
     color: var(--branco);
     font-weight: bold;
     font-size: 2.5rem;
     text-decoration: none;
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -56,17 +56,17 @@ header .navigation li a {
     justify-content: none;
 }
 
-.logo img{
+.logo img {
     width: 50%;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
 
 /* banner */
-.banner{
+.banner {
     background-color: #6f9ceb27;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -76,42 +76,41 @@ body{
     flex-direction: row;
 }
 
-.greatings{
+.greatings {
     align-self: center;
     margin-top: 10rem;
 }
 
-.greatings #ola{
+.greatings #ola {
     font-family: var(--fonteTitulo);
     text-transform: uppercase;
     margin-bottom: -2.5rem;
     font-size: 1.5rem;
 }
 
-.greatings h1{
+.greatings h1 {
     font-family: var(--fonteTitulo);
     text-transform: uppercase;
     font-size: 3.5rem;
     width: 80%;
-
 }
 
-.greatings h1 span{
+.greatings h1 span {
     color: var(--roxo);
 }
 
-.greatings #dev{
+.greatings #dev {
     font-family: var(--fonteTexto);
     margin-top: -1.6rem;
-    font-weight:600;
+    font-weight: 600;
     font-size: 1rem;
 }
 
-.buttons{
+.buttons {
     margin-top: 2rem;
 }
 
-button{
+button {
     height: 44px;
     width: 135px;
     border-radius: 36px;
@@ -119,7 +118,7 @@ button{
     cursor: pointer;
 }
 
-.btn-Hire{
+.btn-Hire {
     border: none;
     background-color: var(--roxo);
     font-family: var(--fonteTitulo);
@@ -128,7 +127,7 @@ button{
     width: 160px;
 }
 
-.btn-Projects{
+.btn-Projects {
     border-color: var(--roxo);
     font-family: var(--fonteTitulo);
     color: var(--roxo);
@@ -136,16 +135,16 @@ button{
     background-color: transparent;
 }
 
-.image{
+.image {
     margin-top: 7rem;
     margin-left: -5rem;
 }
 
-.image img{
+.image img {
     width: 110%;
 }
 
-.about{
+.about {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
@@ -159,11 +158,11 @@ button{
     text-transform: uppercase;
 }
 
-.title span{
+.title span {
     color: var(--azul);
 }
 
-.about p{
+.about p {
     font-family: var(--fonteTexto);
     font-weight: 600;
     line-height: 1.5rem;
@@ -172,7 +171,7 @@ button{
     text-align: center;
 }
 
-.CV{
+.CV {
     border: none;
     background-color: var(--azul);
     font-family: var(--fonteTitulo);
@@ -182,34 +181,37 @@ button{
 }
 
 
-.services{
+.services {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
     margin-top: -5rem;
     justify-items: center;
-    background-color:  #6f9ceb27;
+    align-items: center;
+    background-color: #6f9ceb27;
 }
 
-.services h1{
+.services h1 {
     padding-top: 2rem;
 }
 
-.services .subtitle{
+.subtitle {
     margin-top: -2.5rem;
     font-family: var(--fonteTexto);
     font-size: 1.5rem;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-.servicesContainer{
-    display:grid;
+.servicesContainer {
+    display: grid;
     grid-template-columns: 31.25rem 31.25rem;
     gap: 6.5rem;
     margin-top: 2.5rem;
 }
 
-.serviceCard{
+.serviceCard {
     background-color: var(--preto);
     justify-items: center;
     border-radius: 1.563rem;
@@ -218,11 +220,11 @@ button{
     padding-bottom: 2.5rem;
 }
 
-.serviceCard .top{
+.serviceCard .top {
     justify-items: center;
 }
 
-.serviceCard .top .titleCard{
+.serviceCard .top .titleCard {
     font-family: var(--fonteTitulo);
     color: var(--branco);
     text-transform: uppercase;
@@ -230,7 +232,7 @@ button{
     font-size: 1.2rem;
 }
 
-.serviceCard .bottom .description{
+.serviceCard .bottom .description {
     color: var(--branco);
     font-family: var(--fonteTexto);
     text-align: center;
@@ -240,62 +242,191 @@ button{
     padding-right: 2rem;
 }
 
-.projects{
+.projects {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
 }
 
-.projects h1{
+.projects h1 {
     text-align: center;
 }
 
-.cardsWrapper{
-    justify-self: center;
-    margin-left: 7rem;
+.cardsWrapper {
+    justify-content: center;
+    margin-left: 10rem;
 }
 
-.cardProject{
+.cardProject {
     display: flex;
     margin-bottom: 5rem;
 }
 
-.cardProject .logoProject img{
+.cardProject .logoProject {
+    width: 20%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.cardProject .logoProject img {
     width: 90%;
 }
 
-.cardProject .projectDescription{
-    width: 100%;
+.cardProject .projectDescription {
+    width: 60%;
 }
 
-.cardProject .projectDescription .projectTitle{
+.cardProject .projectDescription .projectTitle {
     color: var(--preto);
     font-family: var(--fonteTitulo);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
-.cardProject .projectDescription .projectTitle span{
+.cardProject .projectDescription .projectTitle span {
     color: var(--roxo);
 }
 
-.projectDescriptiontxt{
+.projectDescriptiontxt {
     font-family: var(--fonteTexto);
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
-.projectDescription .seeMore{
+.projectDescription .seeMore {
     background-color: var(--preto);
     border-radius: 10px !important;
     font-family: var(--fonteTitulo);
     text-transform: uppercase;
     color: var(--branco);
     border: none;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
-footer{
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: var(--branco);
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 8px;
+    width: 48rem;
+    height: 90%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--vermelho);
+    font-weight: bold;
+}
+
+#modalTitle {
+    font-family: var(--fonteTitulo);
+    color: var(--preto);
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+#modalImages img {
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+img,
+video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    height: 25rem !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 10rem;
+    color: var(--vermelho) !important;
+}
+
+/* Cor do ponto ativo (selecionado) */
+.swiper-pagination-bullet-active {
+    background-color: var(--vermelho) !important;
+    transform: scale(1.2);
+}
+
+.modal-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--preto);
+    color: var(--branco);
+    transition: background-color 0.3s;
+    font-family: var(--fonteTitulo);
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.modal-buttons button:hover {
+    background-color: var(--roxo);
+}
+
+footer {
     background-color: var(--preto);
     color: #ffffff59;
     font-family: var(--fonteTitulo);
@@ -305,19 +436,200 @@ footer{
     padding: 2.25rem;
 }
 
-.socials{
+.socials {
     text-align: center;
     justify-self: center;
-    
+
 }
 
-.socials a{
+.socials a {
     text-decoration: none;
     color: var(--branco);
     font-size: 1.5rem;
     margin-right: 1.3rem;
 }
 
-.copyright p{
-    font-size: 0.725rem;  
+.copyright p {
+    font-size: 0.725rem;
+}
+
+
+/*contato*/
+
+.background {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.backgroundLeft {
+    background-color: var(--preto);
+}
+
+.backgroundRight {
+    background: url('../img/code-closeup.jpg');
+    background-size: cover;
+}
+
+.contactContainer {
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 99;
+    top: 4rem;
+}
+
+
+.contactWrapper {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 7rem;
+    margin-left: 2rem;
+
+}
+
+.contactInfo {
+    margin-left: 2rem;
+}
+
+.contactInfo h1 {
+    font-family: var(--fonteTitulo);
+    font-size: 2.5rem;
+    color: var(--roxo);
+    width: 100%;
+}
+
+.contactInfo p {
+    font-family: var(--fonteTexto);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--branco);
+}
+
+.infos {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos>div .top {
+    display: flex;
+    gap: 1rem;
+}
+
+.infos>div i,
+.infos>div .top p {
+    color: var(--vermelho);
+}
+
+.infos>div .bottom p {
+    text-align: left;
+    margin-left: 2rem;
+    color: var(--branco);
+}
+
+hr {
+    opacity: 10%;
+}
+
+
+
+.contactForm {
+    box-shadow: rgba(156, 156, 156, 0.171) 0px 5px 15px;
+    background-color: var(--preto);
+    width: 33rem;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    border-radius: .3rem;
+    padding-top: 3rem;
+    color: var(--branco);
+    justify-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contactForm h2 {
+    font-family: var(--fonteTitulo);
+    color: var(--roxo);
+    font-size: 1.8rem;
+}
+
+form label {
+    margin-bottom: .4rem;
+    color: var(--roxo);
+    font-family: var(--fonteTexto);
+
+}
+
+form i {
+    margin-right: 1rem;
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 2rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: var(--fonteTexto);
+    font-size: .8rem;
+}
+
+form textarea {
+    padding-top: .5rem;
+    height: 100px;
+}
+
+.box-btn {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.btn-envia {
+    cursor: pointer;
+    border: none;
+    background-color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--roxo);
+    border-radius: 3px;
+    width: 80%;
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.zoom-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.185);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.zoom-shadow:hover,
+.zoom-shadow:focus,
+.zoom-shadow:active {
+
+    box-shadow: 0 13px 8px -8px rgba(255, 255, 255, 0.144);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }

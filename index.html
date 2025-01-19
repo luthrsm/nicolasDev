@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="src/css/responsive.css">
+
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
         integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -15,10 +16,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/ebbc1aa60f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-    <title>
-        </>.</title>
+    <link rel="shortcut icon" href="src/img/logo.png">
+    <title>Portfólio de Nicolas</title>
 </head>
 
 <body>
@@ -30,7 +32,7 @@
             <li><a href="#sobre">sobre</a></li>
             <li><a href="#servicos">serviços</a></li>
             <li><a href="#projetos">projetos</a></li>
-            <li><a href="">contato</a></li>
+            <li><a href="contact.html">contato</a></li>
         </ul>
 
         <div class="hamburguer">
@@ -43,7 +45,7 @@
                 <li><a href="#sobre">sobre</a></li>
                 <li><a href="#servicos">serviços</a></li>
                 <li><a href="#projetos">projetos</a></li>
-                <li><a href="">contato</a></li>
+                <li><a href="contact.html">contato</a></li>
             </ul>
         </div>
     </header>
@@ -56,8 +58,14 @@
                 <h1>Me chamo <span>Nicolas Santos</span>.</h1>
                 <p id="dev">Desenvolvedor Web & Mobile</p>
                 <div class="buttons">
-                    <button class="btn-Hire" href="">Me contrate</button>
-                    <button class="btn-Projects" href="">Projetos</button>
+                    <a href="#">
+                        <button class="btn-Hire">Me contrate</button>
+                    </a>
+
+                    <a href="#projetos">
+                        <button class="btn-Projects" href="">Projetos</button>
+                    </a>
+
                 </div>
             </div>
             <div class="image">
@@ -76,7 +84,9 @@
                 código de alta qualidade e experiências excepcionais para os usuários. Prezo pela comunicação clara e
                 pela entrega pontual de projetos. Vamos trabalhar juntos para transformar suas ideias em algo incrível!
             </p>
-            <button class="CV">Veja meu CV</button>
+            <a href="src/docs/curriculo.pdf">
+                <button class="CV">Veja meu CV</button>
+            </a>
         </div>
 
 
@@ -91,9 +101,9 @@
                         <p class="titleCard">Experiência do Usuário</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Desenvolvo interações digitais que não apenas atendem às necessidades dos
+                            usuários, mas também proporcionam experiências inesquecíveis e intuitivas. Transformo cada
+                            visita ao seu sistema em uma jornada agradável e memorável.</p>
                     </div>
                 </div>
 
@@ -103,9 +113,9 @@
                         <p class="titleCard">Código Limpo</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Escrevo códigos limpos e eficientes que garantem facilidade de manutenção
+                            e escalabilidade, permitindo que seus projetos cresçam de forma consistente e se adaptem às
+                            demandas futuras.</p>
                     </div>
                 </div>
 
@@ -115,9 +125,9 @@
                         <p class="titleCard">Interface do Usuário</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Crio interfaces de usuário intuitivas e visualmente atraentes, melhorando
+                            o envolvimento dos usuários e garantindo uma interação agradável e fluida com seus produtos
+                            digitais.</p>
                     </div>
                 </div>
 
@@ -127,9 +137,9 @@
                         <p class="titleCard">Suporte Rápido</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Ofereço suporte rápido e confiável para assegurar que seus projetos
+                            digitais funcionem perfeitamente. Resolvo quaisquer problemas prontamente, mantendo suas
+                            operações eficientes e seus usuários satisfeitos.</p>
                     </div>
                 </div>
 
@@ -139,9 +149,9 @@
                         <p class="titleCard">Design Responsivo</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Sou especialista em criar designs responsivos que se adaptam
+                            perfeitamente a todos os dispositivos, garantindo que seu conteúdo tenha uma excelente
+                            aparência e funcionalidade em qualquer tamanho de tela. </p>
                     </div>
                 </div>
 
@@ -151,9 +161,8 @@
                         <p class="titleCard">Web Design</p>
                     </div>
                     <div class="bottom">
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eos
-                            quisquam impedit velit beatae consectetur. Maiores assumenda vero nobis sapiente eligendi
-                            ipsa molestiae dolore incidunt perspiciatis blanditiis. Dicta, architecto esse.</p>
+                        <p class="description">Crio designs web visualmente atraentes e funcionais que cativam seu
+                            público e elevam a presença online da sua marca.</p>
                     </div>
                 </div>
 
@@ -163,31 +172,95 @@
 
         <div class="projects" id="projetos">
             <h1 class="title"><span>Projetos</span>.</h1>
+            <p class="subtitle">O que eu já fiz?</p>
 
             <div class="cardsWrapper">
-                <div class="cardProject">
-                    <div class="logoProject">
-                        <img src="src/img/Rectangle 14.png" alt="">
-                    </div>
-                    <div class="projectDescription">
-                        <h2 class="projectTitle"><span>nome do projeto</span>.</h2>
-                        <p class="projectDescriptiontxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            sit</p>
-                        <button class="seeMore">Ver mais</button>
-                    </div>
-                </div>
 
-                <div class="cardProject">
+                <div class="cardProject" data-project-id="1">
                     <div class="projectDescription">
-                        <h2 class="projectTitle"><span>nome do projeto</span>.</h2>
-                        <p class="projectDescriptiontxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            sit</p>
+                        <h2 class="projectTitle"><span>Magic Coding</span>. </h2>
+                        <p class="projectDescriptiontxt">O Magic Coding é um projeto desenvolvido em parceria com a
+                            designer <a href="">Isabella Marques</a>. Trata-se de um site que simula a venda de cursos
+                            voltados para a área de tecnologia da informação. Com um design chamativo e intuitivo, o
+                            objetivo é atrair novos assinantes para os cursos oferecidos.</p>
                         <button class="seeMore">Ver mais</button>
                     </div>
                     <div class="logoProject">
                         <img src="src/img/Rectangle 16.png" alt="">
                     </div>
                 </div>
+
+                <div class="cardProject" data-project-id="2">
+                    <div class="logoProject">
+                        <img src="src/img/hemoglobina.png" alt="">
+                    </div>
+                    <div class="projectDescription">
+                        <h2 class="projectTitle"><span>Hemoglobina</span>.</h2>
+                        <p class="projectDescriptiontxt">O Hemoglobina é um projeto desenvolvido em equipe como trabalho
+                            de conclusão de curso. É um aplicativo móvel que facilita a conexão entre doadores de sangue
+                            e hemocentros, abordando diretamente problemas que dificultam o aumento das doações, como a
+                            falta de conhecimento e a dificuldade em encontrar locais adequados para doar.</p>
+                        <button class="seeMore">Ver mais</button>
+                    </div>
+                </div>
+
+                <div class="cardProject" data-project-id="3">
+                    <div class="projectDescription">
+                        <h2 class="projectTitle"><span>Preservateen</span>.</h2>
+                        <p class="projectDescriptiontxt">O PreservaTeen é um projeto desenvolvido em equipe com o
+                            objetivo de desmistificar tabus, fornecer informações confiáveis e conscientizar sobre a
+                            importância do uso de preservativos para prevenir ISTs e gravidez indesejada entre
+                            adolescentes. O projeto promove decisões saudáveis e responsáveis.</p>
+                        <button class="seeMore">Ver mais</button>
+                    </div>
+                    <div class="logoProject">
+                        <img src="src/img/camisinha_logo.jpeg" alt="" style="border-radius: 100%;">
+                    </div>
+                </div>
+
+                <div class="cardProject" data-project-id="4">
+                    <div class="logoProject">
+                        <img src="src/img/inalert.png" alt="">
+                    </div>
+                    <div class="projectDescription">
+                        <h2 class="projectTitle"><span>InAlert</span>.</h2>
+                        <p class="projectDescriptiontxt">O InAlert é um projeto que inova no campo da detecção de gases.
+                            Trata-se de um detector móvel de gases inflamáveis, desenvolvido em sistema embarcado e
+                            conectado a um aplicativo móvel. O sistema permite monitorar os gases de forma prática e
+                            eficiente.</p>
+                        <button class="seeMore">Ver mais</button>
+                    </div>
+                </div>
+
+                <div class="cardProject" data-project-id="5">
+                    <div class="projectDescription">
+                        <h2 class="projectTitle"><span>RTS Engenharia Elétrica</span>.</h2>
+                        <p class="projectDescriptiontxt">O RTS Engenharia Elétrica é um website desenvolvido para
+                            divulgar os serviços de uma empresa de engenharia. Além de ser uma vitrine para os trabalhos
+                            realizados, a plataforma também tem como objetivo captar novos clientes.</p>
+                        <button class="seeMore">Ver mais</button>
+                    </div>
+                    <div class="logoProject">
+                        <img src="src/img/rts.png" alt="">
+                    </div>
+                </div>
+
+                <div class="cardProject" data-project-id="6">
+                    <div class="logoProject">
+                        <img src="src/img/triagil.png" alt="">
+                    </div>
+                    <div class="projectDescription">
+                        <h2 class="projectTitle"><span>Triágil</span>.</h2>
+                        <p class="projectDescriptiontxt">O Triágil é um sistema desenvolvido em equipe durante uma
+                            maratona de programação. Ele organiza informações do usuário, como identificação e convênio,
+                            facilita o acesso à carteirinha e aplica o protocolo de Manchester para priorizar
+                            atendimentos, agilizando o processo e reduzindo filas no pronto atendimento.</p>
+                        <button class="seeMore">Ver mais</button>
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
@@ -195,14 +268,39 @@
 
     </div>
 
+    <!-- Modal -->
+    <div id="projectModal" class="modal hidden">
+        <div class="modalContent">
+            <span class="closeModal">&times;</span>
+            <h2 id="modalTitle">Título do Projeto</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper" id="modalCarousel">
+                    
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div id="modalButtons" class="modal-buttons">
+                
+            </div>
+        </div>
+    </div>
+    
+
+
     <footer>
         <div class="imgFooter">
             <img src="src/img/logo.png" alt="">
         </div>
         <div class="socials">
             <a href="#" class="socialsLink"><i class="fa-regular fa-envelope"></i></a>
-            <a href="#" class="socialsLink"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" class="socialsLink"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nicolas-dos-santos-5352802a4/" class="socialsLink"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/luthrsm" class="socialsLink"><i class="fa-brands fa-github"></i></a>
         </div>
         <div class="copyright">
             <p>Nicolas Santos 2025 &#169; Todos os direitos reservados.</p>

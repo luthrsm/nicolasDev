@@ -9,7 +9,7 @@ header .hamburguer {
     display: none;
 }
 
-.alert{
+.alert {
     position: fixed;
     top: 2%;
     right: 0;
@@ -26,7 +26,7 @@ header .hamburguer {
     transition: transform 0.3s ease-in-out;
 }
 
-.alert .hamburguerNav{
+.alert .hamburguerNav {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -34,17 +34,486 @@ header .hamburguer {
     gap: 50px;
 }
 
-.alert .hamburguerNav li a{
+.alert .hamburguerNav li a {
     text-decoration: none;
     color: #918EF4;
 }
 
-.alert i{
+.alert i {
     display: flex;
     justify-content: flex-end;
     font-size: 1.5rem;
     cursor: pointer;
     color: #f0eff4;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner .image {
+        align-self: center;
+        margin-top: 10rem;
+    }
+
+    .banner .greatings h1 {
+        font-size: 3rem;
+    }
+
+    .servicesContainer {
+        grid-template-columns: 31.25rem;
+    }
+
+    .services {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .cardsWrapper {
+        align-self: center;
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .greatings #ola {
+        font-size: 1.5rem;
+        margin-bottom: -1.5rem;
+    }
+
+    .greatings h1 {
+        width: 35rem;
+    }
+
+    .greatings #dev {
+        font-size: 0.8rem;
+    }
+
+    .btn-Projects {
+        width: 160px;
+        margin-top: 1rem;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .about p {
+        width: 95%;
+        font-size: 0.9rem;
+    }
+
+    .servicesContainer {
+        gap: 3rem
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        margin-top: -2rem;
+    }
+
+    .serviceCard {
+        width: 30rem;
+    }
+
+    .cardsWrapper {
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+
+    .cardProject .projectDescription {
+        width: 80%;
+    }
+
+    .cardProject {
+        width: 42rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: .8rem;
+    }
+
+    .cardProject.logoProject {
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .cardProject .logoProject img {
+        width: 30rem !important;
+
+        margin-top: 7rem;
+    }
+
+    .seeMore {
+        margin-top: 2rem !important;
+    }
+
+    .modalContent {
+        width: 40rem;
+        height: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 9rem !important;
+    }
+
+    .swiper-wrapper {
+        height: 21rem !important;
+    }
+
+
+    .background {
+        height: 180vh;
+    }
+
+    .contactContainer {
+        position: absolute;
+
+    }
+
+    .contactWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactForm {
+        margin-top: -2.5rem;
+    }
+
+    .contactInfo {
+        margin-top: 2rem;
+        padding-right: 18rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .greatings h1 {
+        width: 20rem;
+    }
+
+
+    .servicesContainer {
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+    }
+
+    .serviceCard {
+        width: 25rem;
+        margin-left: 5.5rem;
+        height: auto;
+    }
+
+    .cardProject[data-project-id]:nth-child(even) {
+        text-align: right;
+    }
+
+    .cardProject {
+        gap: 1.3rem;
+        margin-left: 0rem;
+        width: 370px !important;
+
+    }
+
+    .logoProject {
+        display: none;
+        margin: 0;
+        width: auto;
+    }
+
+
+    .projectDescription .projectTitle {
+        font-size: 1.6rem !important;
+    }
+
+    .projectDescription .projectDescriptiontxt {
+        font-size: .9rem
+    }
+
+
+    .projectDescription .seeMore {
+        margin-top: 2rem;
+    }
+
+
+    .socials a {
+        font-size: 1rem;
+    }
+
+    .copyright p {
+        font-size: .4rem;
+    }
+
+    .imgFooter img {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        padding: 0;
+        padding-bottom: 6rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .CV {
+        margin-left: 1.2rem;
+    }
+
+    .servicesContainer {
+        width: 5rem;
+    }
+
+    .serviceCard {
+        width: 20rem;
+    }
+
+    .cardProject {
+        width: 100%;
+    }
+
+    .logoProject {
+        width: 10rem;
+    }
+
+    .logoProject img {
+        margin-top: 2rem;
+    }
+
+    .socials a {
+        font-size: .8rem
+    }
+
+    .copyright p {
+        font-size: .4rem;
+    }
+
+    .modalContent {
+        width: 25rem;
+        height: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 6rem !important;
+    }
+
+    .swiper-container .swiper-button-prev,
+    .swiper-container .swiper-button-next {
+        width: 20px;
+        height: 20px;
+    }
+
+    .swiper-container .swiper-button-prev::after,
+    .swiper-container .swiper-button-next::after {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .swiper-wrapper {
+        height: 14rem !important;
+    }
+
+    .background {
+        height: 230vh;
+        grid-template-columns: 100% 0%;
+
+    }
+
+    .backgroundRight {
+        display: none;
+    }
+
+    .contactContainer {
+        position: absolute;
+
+    }
+
+    .contactWrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .contactForm {
+        margin-top: -2.5rem;
+        margin-left: 2.2rem;
+        width: 22rem;
+    }
+
+    .contactForm h2 {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -1.5rem;
+    }
+
+    .contactInfo {
+        margin-top: 2rem;
+        padding-right: 1rem;
+    }
+
+    form input,
+    form textarea {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cardProject {
+
+        width: 330px !important;
+    }
+
+    .modalContent {
+        width: 20rem;
+        height: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+
+    }
+
+
+    .swiper-wrapper {
+        height: 11rem !important;
+    }
+
+    .contactForm {
+        margin-top: -2.5rem;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+
+    .contactForm h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .navbar .logo {
+        margin-left: -2.7rem;
+    }
+
+    .hamburguer {
+        margin-right: -2rem;
+    }
+
+    .greatings h1 {
+        width: 18rem;
+    }
+
+    .serviceCard {
+        width: 17rem;
+        margin-left: 7rem;
+    }
+
+    .serviceCard .top .titleCard {
+        font-size: 1.05rem;
+    }
+
+    .serviceCard .bottom .description {
+        font-size: .9rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .projects .title {
+        margin-left: -1rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        margin-top: -1.6rem !important;
+    }
+
+    .cardProject {
+        gap: 1.3rem;
+        width: 270px !important;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .seeMore {
+        margin-left: 1rem;
+    }
+
+    .cardProject[data-project-id]:nth-child(even) {
+        text-align: center;
+    }
+
+    .cardProject .projectDescription .projectTitle {
+        font-size: 1.4rem !important;
+    }
+
+    .projectDescriptiontxt {
+        font-size: .9rem !important;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .imgFooter img {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .socials {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .copyright p {
+        font-size: .5rem;
+    }
+
+    .modalContent {
+        width: 18rem;
+        height: auto;
+    }
+
+    .swiper-wrapper {
+        height: 9.5rem !important;
+    }
+
+    .contactForm {
+        width: 17rem;
+        margin-left: 1.5rem;
+    }
+
+    .contactForm h2 {
+        font-size: 1.2rem;
+    }
+
+    .contactForm button {
+        margin-left: 1rem;
+
+    }
+
+    form input,
+    form textarea {
+        width: 15rem;
+    }
 }
 
 @media(max-width:999px) {
@@ -53,6 +522,6 @@ header .hamburguer {
     }
 
     header .hamburguer {
-        display:block;
+        display: block;
     }
 }
