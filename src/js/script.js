@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 { type: "video", src: "src/videos/project2_video.mp4" },
             ],
             buttons: [
-                { text: "Acessar Site", link: "https://site1.com" },
                 { text: "Repositório GitHub", link: "https://github.com/luthrsm/inAlert" },
             ],
         },
@@ -85,16 +84,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 { text: "GitHub", link: "https://github.com/luthrsm/rtsEngenharia" },
             ],
         },
+
         {
             id: 6,
-            title: "Triágil",
+            title: "EC Contabilidade & Assessoria Empresarial ",
             media: [
-                { type: "image", src: "src/img/project2_img1.png" },
-                { type: "video", src: "src/videos/project2_video.mp4" },
+                { type: "image", src: "src/img/ec1.png" },
+                { type: "image", src: "src/img/ec2.png" },
+                { type: "image", src: "src/img/ec3.png" },
+                { type: "image", src: "src/img/ec4.png" },
+                { type: "image", src: "src/img/ec5.png" },
+                { type: "image", src: "src/img/ec6.png" },
+
             ],
             buttons: [
-                { text: "Acessar Site", link: "https://site1.com" },
-                { text: "Repositório GitHub", link: "https://github.com/luthrsm/Triagil" },
+                
             ],
         },
     ];
