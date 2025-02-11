@@ -105,6 +105,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
         },
+
+        {
+            id: 7,
+            title: "TecnoStore",
+            media: [
+                { type: "image", src: "src/img/TS1.png" },
+                { type: "image", src: "src/img/TS2.png" },
+                { type: "image", src: "src/img/TS3.png" },
+                { type: "image", src: "src/img/TS4.png" },
+                { type: "image", src: "src/img/TS5.png" },
+                { type: "image", src: "src/img/TS6.png" },
+                { type: "image", src: "src/img/TS7.png" },
+            ],
+            buttons: [
+                
+            ],
+        },
     ];
 
     const modal = document.getElementById("projectModal");
