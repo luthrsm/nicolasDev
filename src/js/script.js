@@ -122,6 +122,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
         },
+        {
+            id: 8,
+            title: "Transmasculinidades em foco",
+            media: [
+                { 
+                    type: "image", src: "src/img/TMF01",
+                    type: "image", src: "src/img/TMF02",
+                    type: "image", src: "src/img/TMF03",
+                    type: "image", src: "src/img/TMF04",
+                    type: "image", src: "src/img/TMF05",
+                    type: "image", src: "src/img/TMF06",
+                    type: "image", src: "src/img/TMF07",
+                    type: "image", src: "src/img/TMF08",
+                    type: "image", src: "src/img/TMF09",
+                    type: "image", src: "src/img/TMF10",
+                },
+            ],
+            buttons: [
+                { text: "Acessar Site", link: "https://transmascemfoco.vercel.app" },
+                { text: "GitHub", link: "https://github.com/luthrsm/transmascinfoco" },
+            ],
+        }
     ];
 
     const modal = document.getElementById("projectModal");
