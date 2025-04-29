@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             ],
             buttons: [
-                
+
             ],
         },
 
@@ -119,25 +119,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 { type: "image", src: "src/img/TS7.png" },
             ],
             buttons: [
-                
+
             ],
         },
         {
             id: 8,
             title: "Transmasculinidades em foco",
             media: [
-                { 
-                    type: "image", src: "src/img/TMF01.png",
-                    type: "image", src: "src/img/TMF02.png",
-                    type: "image", src: "src/img/TMF03.png",
-                    type: "image", src: "src/img/TMF04.png",
-                    type: "image", src: "src/img/TMF05.png",
-                    type: "image", src: "src/img/TMF06.png",
-                    type: "image", src: "src/img/TMF07.png",
-                    type: "image", src: "src/img/TMF08.png",
-                    type: "image", src: "src/img/TMF09.png",
-                    type: "image", src: "src/img/TMF10.png",
-                },
+                { type: "image", src: "src/img/TMF01.png" },
+                { type: "image", src: "src/img/TMF02.png" },
+                { type: "image", src: "src/img/TMF03.png" },
+                { type: "image", src: "src/img/TMF04.png" },
+                { type: "image", src: "src/img/TMF05.png" },
+                { type: "image", src: "src/img/TMF06.png" },
+                { type: "image", src: "src/img/TMF07.png" },
+                { type: "image", src: "src/img/TMF08.png" },
+                { type: "image", src: "src/img/TMF09.png" },
+                { type: "image", src: "src/img/TMF10.png" },
             ],
             buttons: [
                 { text: "Acessar Site", link: "https://transmascemfoco.vercel.app" },
